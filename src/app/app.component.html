@@ -1,10 +1,11 @@
 <div class="container__main">
+  <button (click)="mudarRota()">mudar</button>
   <div class="content__main">
     <div class="data__selector">
       <app-data-selector></app-data-selector>
     </div>
     <div class="cards__list">
-      TODO:cardList
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>

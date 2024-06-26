@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { DataSelectorComponent } from './components/data-selector/data-selector.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSelectModule} from '@angular/material/select';
+import { CardsComponent } from './components/cards/cards.component';
 @NgModule({
   declarations: [
     AppComponent,
-    DataSelectorComponent
+    DataSelectorComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
