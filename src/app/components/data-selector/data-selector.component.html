@@ -1,6 +1,6 @@
 <div class="container__dataSelector">
   <mat-form-field appearance="fill">
-    <mat-label>Selecione o mês</mat-label>
+    <mat-label>{{"DATA_SELECTOR_TITLE" | translate }}</mat-label>
     <mat-select>
       <mat-option *ngFor="let food of foods" [value]="food.value">
         {{food.viewValue}}
