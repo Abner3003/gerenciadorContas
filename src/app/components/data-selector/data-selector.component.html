@@ -1,0 +1,10 @@
+<div class="container__dataSelector">
+  <mat-form-field appearance="fill">
+    <mat-label>Selecione o mês</mat-label>
+    <mat-select>
+      <mat-option *ngFor="let food of foods" [value]="food.value">
+        {{food.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
